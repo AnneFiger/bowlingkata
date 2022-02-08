@@ -3,7 +3,7 @@ class Bowling
         thing
     end
 
-    def take_bowl()
+    def take_bowl(number)
 
     end
 end
