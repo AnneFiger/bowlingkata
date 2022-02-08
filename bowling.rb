@@ -4,6 +4,7 @@ class Bowling
     end
 
     def take_bowl(number)
+        return 10
 
     end
 end
