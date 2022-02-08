@@ -1,7 +1,5 @@
-class Bowling
-    
-    def get_score_roll(roll)
-        10
-
+class Bowling    
+    def do_something(thing)
+        "something else"
     end
 end
