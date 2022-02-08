@@ -1,10 +1,7 @@
 class Bowling
-    def do_something(thing)
-        thing
-    end
-
-    def take_bowl(number)
-        return 10
+    
+    def get_score_roll(roll)
+        10
 
     end
 end

@@ -6,7 +6,7 @@ describe Bowling do
         bowling = described_class.new
 
         # Act
-        result = bowling.take_bowl("X")
+        result = bowling.get_score_roll("X")
 
         # Assert
         expect(result).to eq(10)
