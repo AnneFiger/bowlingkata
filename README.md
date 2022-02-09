@@ -10,4 +10,4 @@ Run `rspec` on the command line
 - Arrange/Act/Assert
 - Red/Green/Refactor
 - Write test before code
-- Commit frequently!
+- Commit frequently! 
