@@ -1,5 +1,5 @@
 class Bowling    
-    def do_something(thing)
-        "something"
+    def get_score(roll)
+        return "10"
     end
 end
