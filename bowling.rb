@@ -1,8 +1,9 @@
 class Bowling    
     def get_score(roll)
         if roll.length == 1
-            return roll
-        # elsif roll.length == 2
+            strike = 10.to_s
+            return strike
+        
         else 
             first_number = roll[0].to_i
             second_number = roll[1].to_i
