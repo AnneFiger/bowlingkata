@@ -5,10 +5,15 @@ class Bowling
             return strike
         
         else 
+            if roll[1] == "/"
+                score = 10.to_s
+                return score
+            else 
             first_number = roll[0].to_i
             second_number = roll[1].to_i
             final_score = (first_number + second_number).to_s
-            return final_score
+            return final_score  
+            end
         end    
     end
 end

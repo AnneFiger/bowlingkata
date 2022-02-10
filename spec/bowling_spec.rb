@@ -1,7 +1,6 @@
 require_relative '../bowling'
 
 describe Bowling do
-
     it "takes '21', returns 3" do
         # Arrange
         bowling = described_class.new
@@ -12,14 +11,24 @@ describe Bowling do
         # Assert
         expect(result).to eq("3")
     end
-
-
-        it "takes strike, returns 10" do
+    
+    it "takes strike, returns 10" do
         # Arrange
         bowling = described_class.new
 
         # Act
         result = bowling.get_score("X")
+
+        # Assert
+    expect(result).to eq("10")
+    end
+
+    it "takes '4/', returns 10" do
+        # Arrange
+        bowling = described_class.new
+
+        # Act
+        result = bowling.get_score("4/")
 
         # Assert
         expect(result).to eq("10")
