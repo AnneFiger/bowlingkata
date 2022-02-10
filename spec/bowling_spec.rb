@@ -33,6 +33,28 @@ describe Bowling do
         # Assert
         expect(result).to eq("10")
     end
+
+    it "takes 'n/', returns 10" do
+        # Arrange
+        bowling = described_class.new
+
+        # Act
+        result = bowling.get_score("n/")
+
+        # Assert
+        expect(result).to eq("10")
+    end
+
+    it "takes '45 12', returns 12" do
+        # Arrange
+        bowling = described_class.new
+
+        # Act
+        result = bowling.get_score("45 12")
+
+        # Assert
+        expect(result).to eq("12")
+    end
     
 end 
 
