@@ -9,7 +9,7 @@ describe Bowling do
         result = bowling.get_score("21")
 
         # Assert
-        expect(result).to eq("3")
+        expect(result).to eq(3)
     end
     
     it "takes strike, returns 10" do
@@ -20,8 +20,9 @@ describe Bowling do
         result = bowling.get_score("X")
 
         # Assert
-    expect(result).to eq("10")
-    end
+    expect(result).to eq(10)
+    end     
+    # Non-working test see if biggest string works
 
     it "takes '4/', returns 10" do
         # Arrange
@@ -31,7 +32,7 @@ describe Bowling do
         result = bowling.get_score("4/")
 
         # Assert
-        expect(result).to eq("10")
+        expect(result).to eq(10)
     end
 
     it "takes 'n/', returns 10" do
@@ -42,7 +43,7 @@ describe Bowling do
         result = bowling.get_score("n/")
 
         # Assert
-        expect(result).to eq("10")
+        expect(result).to eq(10)
     end
 
     it "takes '45 12', returns 12" do
@@ -53,7 +54,7 @@ describe Bowling do
         result = bowling.get_score("45 12")
 
         # Assert
-        expect(result).to eq("12")
+        expect(result).to eq(12)
     end
     
 end 
