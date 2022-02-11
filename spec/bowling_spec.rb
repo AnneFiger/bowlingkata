@@ -22,7 +22,7 @@ describe Bowling do
         # Assert
     expect(result).to eq(10)
     end     
-    # Non-working test see if biggest string works
+    
 
     it "takes '4/', returns 10" do
         # Arrange
